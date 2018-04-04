@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7803DB22074B0F900274EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7803DB12074B0F900274EDD /* main.m */; };
+		D7803DC12074B10E00274EDD /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D7803DBD2074B10E00274EDD /* GCDAsyncSocket.m */; };
+		D7803DC22074B10E00274EDD /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D7803DBF2074B10E00274EDD /* GCDAsyncUdpSocket.m */; };
+		D7803DC52074B15F00274EDD /* YZSocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = D7803DC42074B15F00274EDD /* YZSocketService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7803DAC2074B0F900274EDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7803DAE2074B0F900274EDD /* Socket搭建服务器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Socket搭建服务器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7803DB12074B0F900274EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7803DB92074B10E00274EDD /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
+		D7803DBB2074B10E00274EDD /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		D7803DBC2074B10E00274EDD /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		D7803DBD2074B10E00274EDD /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		D7803DBE2074B10E00274EDD /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		D7803DBF2074B10E00274EDD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		D7803DC02074B10E00274EDD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7803DC32074B15F00274EDD /* YZSocketService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSocketService.h; sourceTree = "<group>"; };
+		D7803DC42074B15F00274EDD /* YZSocketService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSocketService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7803DAB2074B0F900274EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7803DA52074B0F900274EDD = {
+			isa = PBXGroup;
+			children = (
+				D7803DB82074B10E00274EDD /* Source */,
+				D7803DB02074B0F900274EDD /* Socket搭建服务器 */,
+				D7803DAF2074B0F900274EDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7803DAF2074B0F900274EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7803DAE2074B0F900274EDD /* Socket搭建服务器 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7803DB02074B0F900274EDD /* Socket搭建服务器 */ = {
+			isa = PBXGroup;
+			children = (
+				D7803DB12074B0F900274EDD /* main.m */,
+				D7803DC32074B15F00274EDD /* YZSocketService.h */,
+				D7803DC42074B15F00274EDD /* YZSocketService.m */,
+			);
+			path = "Socket搭建服务器";
+			sourceTree = "<group>";
+		};
+		D7803DB82074B10E00274EDD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D7803DB92074B10E00274EDD /* CocoaAsyncSocket.h */,
+				D7803DBA2074B10E00274EDD /* GCD */,
+				D7803DC02074B10E00274EDD /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D7803DBA2074B10E00274EDD /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				D7803DBB2074B10E00274EDD /* Documentation.html */,
+				D7803DBC2074B10E00274EDD /* GCDAsyncSocket.h */,
+				D7803DBD2074B10E00274EDD /* GCDAsyncSocket.m */,
+				D7803DBE2074B10E00274EDD /* GCDAsyncUdpSocket.h */,
+				D7803DBF2074B10E00274EDD /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7803DAD2074B0F900274EDD /* Socket搭建服务器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7803DB52074B0F900274EDD /* Build configuration list for PBXNativeTarget "Socket搭建服务器" */;
+			buildPhases = (
+				D7803DAA2074B0F900274EDD /* Sources */,
+				D7803DAB2074B0F900274EDD /* Frameworks */,
+				D7803DAC2074B0F900274EDD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket搭建服务器";
+			productName = "Socket搭建服务器";
+			productReference = D7803DAE2074B0F900274EDD /* Socket搭建服务器 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7803DA62074B0F900274EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "叶子";
+				TargetAttributes = {
+					D7803DAD2074B0F900274EDD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7803DA92074B0F900274EDD /* Build configuration list for PBXProject "Socket搭建服务器" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7803DA52074B0F900274EDD;
+			productRefGroup = D7803DAF2074B0F900274EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7803DAD2074B0F900274EDD /* Socket搭建服务器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7803DAA2074B0F900274EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7803DC12074B10E00274EDD /* GCDAsyncSocket.m in Sources */,
+				D7803DC52074B15F00274EDD /* YZSocketService.m in Sources */,
+				D7803DC22074B10E00274EDD /* GCDAsyncUdpSocket.m in Sources */,
+				D7803DB22074B0F900274EDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7803DB32074B0F900274EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7803DB42074B0F900274EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7803DB62074B0F900274EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFX78Y8JFH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7803DB72074B0F900274EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFX78Y8JFH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7803DA92074B0F900274EDD /* Build configuration list for PBXProject "Socket搭建服务器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7803DB32074B0F900274EDD /* Debug */,
+				D7803DB42074B0F900274EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7803DB52074B0F900274EDD /* Build configuration list for PBXNativeTarget "Socket搭建服务器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7803DB62074B0F900274EDD /* Debug */,
+				D7803DB72074B0F900274EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7803DA62074B0F900274EDD /* Project object */;
+}
